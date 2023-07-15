@@ -32,10 +32,10 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/detailApp",
-    element: < DetailApp/>,
-    errorElement: <ErrorPage/>
-  }
+    path: "/detailApp/:appId",
+    element: <DetailApp />,
+    errorElement: <ErrorPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

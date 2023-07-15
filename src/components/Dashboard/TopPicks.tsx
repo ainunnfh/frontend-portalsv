@@ -1,3 +1,4 @@
+import TOP_PICKS_DUMMY from "../../constants/top-picks";
 import TopPickCard from "./TopPickCard";
 
 const TopPicks = () => {
@@ -13,12 +14,20 @@ const TopPicks = () => {
       </div>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {TOP_PICKS_DUMMY.map((item) => (
+          <TopPickCard
+            key={item.id}
+            cover={item.cover}
+            id={item.id}
+            title={item.title}
+            totalLikes={item.totalLikes}
+          />
+        ))}
+        {/* <TopPickCard />
         <TopPickCard />
         <TopPickCard />
         <TopPickCard />
-        <TopPickCard />
-        <TopPickCard />
-        <TopPickCard />
+        <TopPickCard /> */}
       </div>
     </section>
   );
