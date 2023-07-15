@@ -1,4 +1,3 @@
-import { SLIDER_NEXT, SLIDER_PREF } from "../../constants";
 import MajorCard from "./MajorCard";
 
 const Major = () => {
