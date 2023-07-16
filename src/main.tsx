@@ -9,6 +9,7 @@ import ErrorPage from "./routes/error-page";
 import HaloPage from "./pages/Halo.tsx";
 import Dashboard from "./pages/Dashboard.tsx";
 import DetailApp from "./pages/DetailApp.tsx";
+import AdminPanel from "./pages/AdminPanel.tsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
   {
     path: "/detailApp/:appId",
     element: <DetailApp />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/AdminPanel",
+    element: <AdminPanel />,
     errorElement: <ErrorPage />,
   },
 ]);
