@@ -13,6 +13,7 @@ import AdminPanel from "./pages/AdminPanel.tsx";
 import DetailProdi from "./pages/DetailProdi.tsx";
 import AdminDetailApp from "./pages/AdminDetailApp.tsx";
 import ProgramStudi from "./pages/ProgramStudi.tsx";
+import TambahProdi from "./pages/TambahProdi.tsx";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,11 @@ const router = createBrowserRouter([
   {
     path: "/programstudi",
     element: <ProgramStudi />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/tambahprodi",
+    element: <TambahProdi />,
     errorElement: <ErrorPage />,
   },
 ]);

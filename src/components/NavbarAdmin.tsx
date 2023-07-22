@@ -7,8 +7,9 @@ export default function NavbarAdmin() {
         <Link to="/" className="text-2xl">
           Portal<span className="text-primary">SV</span>
         </Link>
+
         <div className="flex items-center">
-          <div className="flex gap-2 lg:justify-end">
+          <div className="flex gap-2 ">
             <a href="#" className="text-sm">
               Program Studi
             </a>
@@ -19,9 +20,12 @@ export default function NavbarAdmin() {
               Manajemen Studi
             </a>
           </div>
-          <button className="bg-primary py-2 px-4 text-white text:xs rounded-lg font-semibold">
-            Login
-          </button>
+
+          <div>
+            <button className="bg-primary py-2 px-4 text-white text:xs rounded-lg font-semibold">
+              Login
+            </button>
+          </div>
         </div>
       </nav>
     </div>

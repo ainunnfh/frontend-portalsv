@@ -1,8 +1,8 @@
 export default function TableProdi() {
   return (
     <>
-      <div className="p-4">
-        <h2 className="text-2xl font-bold text-white inline-block bg-secondary p-1 mb-5">
+      <div className="lg:p-6 lg:px-[10vw]">
+        <h2 className="text-2xl font-bold text-white inline-block bg-secondary p-1 mb-5 mt-20">
           Daftar Program Studi
         </h2>
 
