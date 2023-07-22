@@ -28,6 +28,7 @@ export default function BannerDetailApps(props: Props) {
           </button>
 
           <button className="text-sm text-[#9B9B9B]"> ❤ Like</button>
+          <button className="text-sm text-[#9B9B9B]"> ✏ Edit</button>
         </div>
       </div>
     </div>

@@ -1,5 +1,3 @@
-import { ICON_IPB } from "../../constants";
-
 export interface DetailProdiProps {
   no: number;
   title: string;

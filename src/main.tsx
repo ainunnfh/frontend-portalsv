@@ -11,6 +11,8 @@ import Dashboard from "./pages/Dashboard.tsx";
 import DetailApp from "./pages/DetailApp.tsx";
 import AdminPanel from "./pages/AdminPanel.tsx";
 import DetailProdi from "./pages/DetailProdi.tsx";
+import AdminDetailApp from "./pages/AdminDetailApp.tsx";
+import ProgramStudi from "./pages/ProgramStudi.tsx";
 
 const router = createBrowserRouter([
   {
@@ -44,8 +46,18 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/detailprodi/:prodiId",
+    path: "/detailprodi",
     element: <DetailProdi />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/admindetailapp",
+    element: <AdminDetailApp />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/programstudi",
+    element: <ProgramStudi />,
     errorElement: <ErrorPage />,
   },
 ]);

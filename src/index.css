@@ -9,3 +9,15 @@
 .bg-gradient-purple {
   @apply bg-gradient-to-r from-blue-50 to-purple-50;
 }
+
+.table-header {
+  @apply bg-secondary text-white items-center p-4 ;
+}
+
+.table-border {
+  @apply border border-[#B9B9B9]
+}
+
+.number-border {
+  @apply border p-0.5 text-[#B9B9B9]
+}

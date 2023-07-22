@@ -7,7 +7,7 @@ export default function NavbarAdmin() {
         <Link to="/" className="text-2xl">
           Portal<span className="text-primary">SV</span>
         </Link>
-        <div className="flex gap-4 items-center">
+        <div className="flex items-center">
           <div className="flex gap-2 lg:justify-end">
             <a href="#" className="text-sm">
               Program Studi
