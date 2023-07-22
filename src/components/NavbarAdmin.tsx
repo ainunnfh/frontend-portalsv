@@ -7,14 +7,22 @@ export default function NavbarAdmin() {
         <Link to="/" className="text-2xl">
           Portal<span className="text-primary">SV</span>
         </Link>
-        <div className="flex gap-2 lg:justify-end">
-          <p className="text-sm">Program Studi</p>
-          <p className="text-sm">Aplikasi</p>
-          <p className="text-sm">Manajemen Studi</p>
+        <div className="flex gap-4 items-center">
+          <div className="flex gap-2 lg:justify-end">
+            <a href="#" className="text-sm">
+              Program Studi
+            </a>
+            <a href="#" className="text-sm">
+              Aplikasi
+            </a>
+            <a href="#" className="text-sm">
+              Manajemen Studi
+            </a>
+          </div>
+          <button className="bg-primary py-2 px-4 text-white text:xs rounded-lg font-semibold">
+            Login
+          </button>
         </div>
-        <button className="bg-primary py-2 px-4 text-white text:xs rounded-lg font-semibold">
-          Login
-        </button>
       </nav>
     </div>
   );

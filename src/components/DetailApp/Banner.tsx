@@ -1,11 +1,11 @@
-interface Props {
+export interface Props {
   title: string;
   prodi: string;
   imageHero: string;
 }
 export default function BannerDetailApps(props: Props) {
   return (
-    <div className="min-h-[50vh] bg-gradient-to-r from-blue-50 to-purple-50 px-6 py-6 md:flex md:flex-row-reverse justify-between items-center lg:px-[10vw]">
+    <div className="min-h-[50vh] bg-gradient-purple px-6 py-6 md:flex md:flex-row-reverse justify-between items-center lg:px-[10vw]">
       <div className="flex justify-center md:block">
         <img
           src={props.imageHero}

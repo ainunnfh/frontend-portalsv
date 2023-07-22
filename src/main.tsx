@@ -10,6 +10,7 @@ import HaloPage from "./pages/Halo.tsx";
 import Dashboard from "./pages/Dashboard.tsx";
 import DetailApp from "./pages/DetailApp.tsx";
 import AdminPanel from "./pages/AdminPanel.tsx";
+import DetailProdi from "./pages/DetailProdi.tsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
   {
     path: "/AdminPanel",
     element: <AdminPanel />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/detailprodi/:prodiId",
+    element: <DetailProdi />,
     errorElement: <ErrorPage />,
   },
 ]);

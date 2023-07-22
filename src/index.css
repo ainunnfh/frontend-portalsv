@@ -5,3 +5,7 @@
   font-family: "Poppins";
   src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 }
+
+.bg-gradient-purple {
+  @apply bg-gradient-to-r from-blue-50 to-purple-50;
+}

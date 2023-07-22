@@ -19,8 +19,6 @@ const DetailApp = () => {
     );
   }
 
-  console.log(filtered);
-
   return (
     <>
       <Navbar />
